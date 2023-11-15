@@ -133,17 +133,51 @@ nav a:hover::after {
     font-family: 'Poppins',sans-serif;
 }
 
-.partner-wrapper{
-    width: 1200px;
-    height: 400px;
-    margin:0 auto;
+.partner-logos{
     display:flex;
-    flex-flow: row wrap;
+    width:1000px;
+    height:600px;
+    margin: 0 auto;
+    flex-direction:row;
 }
-.partner-wrapper>img{
-    margin:50px;
-    width: 300px;
+
+.logo-partner {
+    /* Other styles for your logo-partner class */
+    width: 800px;
+    height: 300px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    border-radius: 24px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo-partner>header>h2{
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+}
+
+.logo-partner > img{
+    margin-left: 20px;
+    width:200px;
+    height:200px;
+}
+
+.logo-media>header>h2{
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+}
+.logo-media{
+    width:400px;
     height:300px;
+    margin-left:50px;
+    margin-bottom:100px;
+    border-radius: 24px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo-media > img{
+    width:400px;
+    height:200px;
 }
 
 
