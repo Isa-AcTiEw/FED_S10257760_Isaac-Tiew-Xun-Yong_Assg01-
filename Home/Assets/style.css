@@ -246,7 +246,7 @@ nav a:hover::after {
     font-family:'Poppins',sans-serif;
 }
 .form-fields> input#submit-btn{
-    margin-top: 20px;
+    margin-top: 40px;
     width:622px;
     height: 42px;
     font-family: 'Poppins',sans-serif;
@@ -254,3 +254,17 @@ nav a:hover::after {
     background: blue;
     color: #FFFF;
 }
+
+.footer-container{
+    width:1920px;
+    height:335px;
+    margin:0 auto;
+    background-color: #5F9EA0;
+    display:flex;
+    flex-direction: column;
+}
+
+
+
+
+
