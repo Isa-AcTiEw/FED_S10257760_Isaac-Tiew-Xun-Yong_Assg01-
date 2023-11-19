@@ -33,49 +33,57 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 - navigation bar on all the pages of my website
 - A contact card with a submit button
 - color transition when hovering over nav tabs
-- 
+- Contact infomration in the footer of the webpage
+- For the store page an add to cart button
+- Cart that updates for every item added to cart
+- Total amount due that is tabulated by totaling up all the prices of the products listed in the cart
+- An overlay pop up that displays the gaming performance of the gaming handheld on the product page
+- Scroll behaviour of images
+- Product
+- Store page
+- Cart page
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Naviagtion bar - allow users to be able to click on nav tabs to navigate arround the different pages of the website
+- A contact card that allow users to post any queries they have regarding the product to the company 
+- Colour transition when hovering over nav tabs
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- Contact infomration in the footer of the webpage
+- For the store page an add to cart button
+- Cart that updates for every item added to cart
+- Total amount due that is tabulated by totaling up all the prices of the products listed in the cart
+- An overlay pop up that displays the gaming performance of the gaming handheld on the product page
+- Scroll behaviour of images
+- Product
+- Store page
+- Cart page
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- [GitHub](https://github.com/Isa-AcTiEw/FED_S10257760_Isaac-Tiew-Xun-Yong_Assg01-)
+    - The project uses **GitHub** to commit and update the repository of the project as well as to allow for collaboration and sharing of my html website
 
 
 ## Testing
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for the footer was copied from the [AYN](https://www.ayntec.com/)
 
 ### Media
-- The photos used in this site were obtained from ...
-
+- The image for the about us section of the home page was retrieved from [About-removebg-preview](https://www.cleanpng.com/png-computer-icons-icon-design-about-us-958249/preview.html)
+- The image for the vision section on the home page was retrieved from [forward-arrow-icon.png](https://uxwing.com/forward-arrow-icon/)
+- The image for the AMD logo for the partner's section on the home page was retrieved from [AMD-removebg-preview.png](https://w7.pngwing.com/pngs/125/529/png-transparent-advanced-micro-devices-inc-v-intel-corp-central-processing-unit-openacc-intel-angle-text-triangle.png)
+- The image for the Snapdragon logo for the partner's section on the home page was retrieved from [Snapdragon-removebg-preview.png](https://seeklogo.com/images/S/snapdragon-logo-374EF45C05-seeklogo.com.png)
+- The image for the MediaTek logo for the partner's section on the home page was retrieved from [mediatek-removebg-preview.png](https://www.liblogo.com/img-logo/me5680m87c-mediatek-logo-mediatek-logo-download-vector.png)
+- The image for the company's logo on the nav tab was retrieved from [aynlogo.png](https://www.ayntec.com/)
+- The image for the home page displaying the console was retrieved from [Console.jpeg](https://www.ayntec.com/)
+  
 ### Acknowledgements
 
-- I received inspiration for this project from X
+
