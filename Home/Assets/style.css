@@ -251,4 +251,6 @@ nav a:hover::after {
     height: 42px;
     font-family: 'Poppins',sans-serif;
     border-radius: 50px;
+    background: blue;
+    color: #FFFF;
 }
