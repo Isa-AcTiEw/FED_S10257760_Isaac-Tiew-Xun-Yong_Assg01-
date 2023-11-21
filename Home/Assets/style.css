@@ -57,12 +57,7 @@ nav a:hover::after {
     opacity: 1;
 }
 
-.slideshow img{
-    width: 735px;
-    height:488px;
-    display: flex;
-    margin:40px auto;
-}
+  
 
 .about-header>h2{
     width:100%;
