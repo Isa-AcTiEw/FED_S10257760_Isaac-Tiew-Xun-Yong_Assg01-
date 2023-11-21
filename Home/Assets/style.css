@@ -256,13 +256,15 @@ nav a:hover::after {
 }
 
 .footer-container{
-    margin:60px auto;
+    margin:20px auto;
     width: 100%;
     padding:50px 15%;
     background: black;
     font-family: 'Poppins',sans-serif;
     color:#FFFF;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .footer-container div{
@@ -272,9 +274,6 @@ nav a:hover::after {
 .footer-container div h3{
     margin-bottom:30px;
     letter-spacing: 1px;
-}
-.newsletter{
-    flex-grow: 1;
 }
 .useful-links a{
     display:block;
@@ -303,6 +302,18 @@ nav a:hover::after {
     cursor: pointer;
 
 }
+
+.socials{
+    margin-top: 30px;
+
+}
+
+.socials i{
+    font-size: 30px;
+    margin:10px;
+    cursor:pointer ;
+}
+
 
 
 
