@@ -256,7 +256,7 @@ nav a:hover::after {
 }
 
 .footer-container{
-    margin:0px auto;
+    margin:60px auto;
     width: 100%;
     padding:50px 15%;
     background: black;
@@ -268,19 +268,42 @@ nav a:hover::after {
 .footer-container div{
     text-align: center;
 }
-.newsletter{
-    flex-grow: 2;
-}
+
 .footer-container div h3{
-    font-weight:200;
     margin-bottom:30px;
     letter-spacing: 1px;
+}
+.newsletter{
+    flex-grow: 1;
 }
 .useful-links a{
     display:block;
     text-decoration: none;
     color:aqua;
 }
+
+.newsletter>form input{
+    width:400px;
+    height:45px;
+    border-radius:5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+
+}
+
+.newsletter > form button{
+    background: transparent;
+    border: 2px solid #FFFF;
+    color: white;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
 
 
 
