@@ -57,20 +57,29 @@ nav a:hover::after {
     opacity: 1;
 }
 
-.Slides{
+.slideshow-container{
     display:flex;
-    width: 100%;
-    height:500px;
-    margin:30px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    
 }
+.Slides {
+    display: flex;
+    align-items: center;
+}
+
 
 .Slides img{
     width:700px;
-    height: 500px;
+
+
 }
 
+
 .text-box{
-    width:400px;
+    width:200px;
     height:200px;
     background-color: black;
     color:white;
@@ -79,9 +88,33 @@ nav a:hover::after {
     border-radius:15px;
     box-shadow: 0 12px 8px -4px 	#1F51FF;
     font-family: 'Poppins',sans-serif;
-
-
 }
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width:20px;
+    align-items: center;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0; /* far left */
+}
+
+.next {
+    right: 0; /* far right */
+}
+
+
+
+
+
 
 
   
