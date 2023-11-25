@@ -102,6 +102,12 @@ nav a:hover::after {
     background-color:white;
     box-sizing: border-box;
     display:flex;
+    align-items: center;
+}
+
+.grid-item img{
+    width:390px;
+    height:390px;
 }
 
 
