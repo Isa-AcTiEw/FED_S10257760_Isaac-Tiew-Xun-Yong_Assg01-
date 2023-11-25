@@ -61,13 +61,13 @@ nav a:hover::after {
     display:flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    align-content: center;
     justify-content: space-between;
-    align-items: center;
     
 }
 .Slides {
     display: flex;
-    align-items: center;
+    margin:20px auto;
 }
 
 
