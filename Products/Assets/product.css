@@ -83,7 +83,9 @@ nav a:hover::after {
     justify-content:space-between;
     flex-wrap: wrap;
     background-color: black;
-    margin:20px auto;
+    margin:10px auto;
+
+    
 
 }
 
@@ -95,32 +97,42 @@ nav a:hover::after {
 }
 .grid-item{
     position:relative;
-    margin:20px auto;
-    width:700px;
-    height:500px;
+    width:900px;
+    height:700px;
     border-radius:5px;
     background-color:white;
     box-sizing: border-box;
     display:flex;
     align-items: center;
+    margin:15px auto;
 }
 
-.grid-item img{
-    width:390px;
-    height:390px;
+.img-container{
+    margin:10px auto;
+    width:700px;
+    height:400px;
+}
+
+
+
+
+.img-container img{
+    margin:0 auto;
+    width:100%;
 }
 
 
 .text-container{
     position:absolute;
-    width:700px;
-    height:200px;
+    width:900px;
+    height:100px;
     background-color: white;
     bottom:0;
     color:black;
     font-family:"Poppins",sans-serif;
     font-size:18px;
 }
+
 
 
 
