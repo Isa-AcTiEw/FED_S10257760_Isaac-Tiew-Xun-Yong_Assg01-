@@ -91,6 +91,7 @@ nav a:hover::after {
 
 .screen-battrey{
     margin:20px auto;
+    position:relative;
     width:80%;
     height:600px;
     display:flex;
@@ -105,12 +106,30 @@ nav a:hover::after {
     border-radius: 10px;
 }
 
+.screen-text{
+    bottom:0;
+    position: absolute;
+    width:800px;
+    height:200px;
+    background-color: blue;
+}
+
 .battrey{
     margin-right: 10px;
     width:500px;
     background-color: #FFFF;
     border-radius: 10px;
 }
+
+.battrey-text{
+    bottom:0;
+    position:absolute;
+    width:500px;
+    height:100px;
+    background-color: blue;
+
+}
+
 
 .header-info{
     width:100%;
