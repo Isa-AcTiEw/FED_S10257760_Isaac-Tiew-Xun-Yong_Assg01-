@@ -115,14 +115,23 @@ nav a:hover::after {
     position: absolute;
     width:800px;
     height:200px;
-    background-color: blue;
+    font-family: "Poppins",sans-serif;
+    font-size: 18px;
 }
 
 .battrey{
     margin-right: 10px;
+    justify-content: center;
     width:500px;
     background-color: #FFFF;
     border-radius: 10px;
+}
+
+.fa{
+    font-size: 300px;
+    color:#0FFF50;
+    margin-top: 130px;
+    margin-bottom:20px;
 }
 
 .battrey-text{
@@ -130,9 +139,12 @@ nav a:hover::after {
     position:absolute;
     width:500px;
     height:200px;
-    background-color: blue;
+    font-family:"Poppins",sans-serif;
+    font-size: 20px;
+    margin-top:5px;
 
 }
+
 
 
 .header-info{
