@@ -206,8 +206,7 @@ nav a:hover::after {
     display:flex;
     flex-flow:row wrap;
     text-align:center;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .latency-header{
@@ -219,11 +218,10 @@ nav a:hover::after {
 }
 
 .latency-item{
-    justify-content: center;
     align-content: center;
     width:500px;
     height:250px;
-    margin:5px auto;
+    margin:0 15px;
     background-color: white;
     border-radius: 10px;
 }
@@ -243,7 +241,68 @@ nav a:hover::after {
     margin: 0 auto;
 }
 
+.compatible-games{
+    width:100%;
+    margin:20px auto;
+    font-family: "Poppins",sans-serif;
+    font-size:50px;
+    color:white;
 
+}
+.game-header{
+    width:100%;
+    margin:20px auto;
+}
+.steam{
+    width:1600px;
+    height:400px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin:20px auto;
+    text-align: center;
+
+}
+
+.empty{
+    width:800px;
+    height:400px;
+}
+
+.text{
+    width:700px;
+    height:200px;
+    background-color: white;
+    border-radius:10px;
+    font-family: "Poppins",sans-serif;
+    font-size:20px;
+    color: black;
+}
+
+.emulators{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.emulator-item{
+    display:flex;
+    width:600px;
+    height:700px;
+    background:white;
+    border-radius:10px;
+    margin:15px;
+}
+
+/* .emu-text{
+    width:600px;
+    height:200px;
+    background-color: white;
+
+} */
 
 
 
