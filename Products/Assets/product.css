@@ -258,16 +258,17 @@ nav a:hover::after {
     height:400px;
     display:flex;
     align-items: center;
-    justify-content: space-between;
     border-radius: 10px;
+    justify-content: center;
     margin:20px auto;
     text-align: center;
 
 }
 
-.empty{
-    width:800px;
+.empty img{
+    width:400px;
     height:400px;
+    margin:0 15px;
 }
 
 .text{
@@ -290,19 +291,31 @@ nav a:hover::after {
 
 .emulator-item{
     display:flex;
+    position: relative;
+    justify-content: center;
     width:600px;
     height:700px;
     background:white;
     border-radius:10px;
     margin:15px;
+    text-align: center;
 }
 
-/* .emu-text{
+.emulator-item img{
+    width:500px;
+    height:500px;
+}
+
+.emu-text{
     width:600px;
     height:200px;
     background-color: white;
-
-} */
+    font-family: "Poppins",sans-serif;
+    font-size:25px;
+    position: absolute;
+    bottom: 0px;
+    color: black;
+}
 
 
 
