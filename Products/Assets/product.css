@@ -317,9 +317,47 @@ nav a:hover::after {
     color: black;
 }
 
+.Reviews{
+    width:100%;
+    margin:20px auto;
+    justify-content: center;
+    text-align:center;
+}
 
+.reviews-header{
+    font-family:"Poppins",sans-serif;
+    font-size:50px;
+    color:white;
+}
 
+.container-review{
+    margin:20px auto;
+    width:1792px;
+    height:100%
+}
 
+.video-container-grid{
+    width:1792px;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    text-align:center;
+    flex-wrap: wrap;
+}
+
+.video-tiles{
+    width:540px;
+    height:400px;
+    background-color: white;
+    border-radius: 10px;
+    margin:15px auto;
+}
+
+.video-tiles iframe{
+    border-radius:10px;
+    width:540px;
+    height:420px; 
+}
 
 
 
