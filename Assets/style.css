@@ -158,26 +158,7 @@ nav a:hover::after {
     font-family: 'Poppins',sans-serif;
 }
 
-.prev, .next {
-    position: absolute;
-    top: 50%;
-    width:20px;
-    align-items: center;
-    color: white;
-    background-color: black;
-    border-radius: 5px;
-    transform: translateY(-50%);
-    font-size: 24px;
-    cursor: pointer;
-}
 
-.prev {
-    left: 0; /* far left */
-}
-
-.next {
-    right: 0; /* far right */
-}
 
 .about-header>h2{
     width:100%;
@@ -753,13 +734,9 @@ nav a:hover::after {
 
 .shopping-cart{
     width:100%;
-    height:500px;
     background-color: white;
-    
     display: flex;
     flex-direction: column;
-    
-
 }
 
 .title{
@@ -772,6 +749,70 @@ nav a:hover::after {
     font-family: "Poppins",sans-serif;
 
 }
+
+.total{
+    width:50%;
+    height:500px;
+    height: 500px;
+    margin:10px auto;
+    background-color:white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.total h2{
+    margin:0 auto;
+    width: 50%;
+    height:60px;
+    border-bottom:1px solid #E1E8EE;
+    color: #000;
+    font-size:30px;
+    font-weight: 400;
+    font-family: "Poppins",sans-serif;
+}
+
+.disp-total{
+    font-size:20px;
+    font-family: "Poppins",sans-serif;
+}
+
+.purchase-btn{
+    height:20px;
+    margin-left:10px;
+    border: none;
+    outline:none;
+    font-family: "Poppins",sans-serif;
+}
+
+.purchase-btn :hover{
+    background-color: rgb(14, 188, 63);
+    color: white;
+    border-radius: 10px;
+}
+
+
+.return-btn{
+    height: 15px;
+    border:none;
+    outline: none;
+    margin-left:10px;
+    font-family:"Poppins",sans-serif
+}
+
+.return-btn :hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+
+
 
 
 .item{
