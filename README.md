@@ -60,6 +60,9 @@ the website
 
 - [GitHub](https://github.com/Isa-AcTiEw/FED_S10257760_Isaac-Tiew-Xun-Yong_Assg01-)
     - The project uses **GitHub** to commit and update the repository of the project as well as to allow for collaboration and sharing of my html website
+- [fontawesome](https://fontawesome.com/)
+  - The project uses **fontawesome** library for icons for the social media icons in the footer and the battrey icon for the product page.
+
 
 
 ## Testing
@@ -71,6 +74,7 @@ the website
 - The text for the footer was copied from the [AYN](https://www.ayntec.com/)
 
 ### Media
+#### Home
 - The image for the about us section of the home page was retrieved from [About-removebg-preview](https://www.cleanpng.com/png-computer-icons-icon-design-about-us-958249/preview.html)
 - The image for the vision section on the home page was retrieved from [forward-arrow-icon.png](https://uxwing.com/forward-arrow-icon/)
 - The image for the AMD logo for the partner's section on the home page was retrieved from [AMD-removebg-preview.png](https://w7.pngwing.com/pngs/125/529/png-transparent-advanced-micro-devices-inc-v-intel-corp-central-processing-unit-openacc-intel-angle-text-triangle.png)
@@ -78,7 +82,11 @@ the website
 - The image for the MediaTek logo for the partner's section on the home page was retrieved from [mediatek-removebg-preview.png](https://www.liblogo.com/img-logo/me5680m87c-mediatek-logo-mediatek-logo-download-vector.png)
 - The image for the company's logo on the nav tab was retrieved from [aynlogo.png](https://www.ayntec.com/)
 - The image for the home page displaying the console was retrieved from [Console.jpeg](https://www.ayntec.com/)
-  
+
+#### Product
+- The product image for Loki Max on the product page was retrieved from [loki-max01.jpg](https://www.ayntec.com/products/loki-max-preorder)
+- The image for the processor of the product was retrieved from [amd-ryzen-6000-cpu-resized.png](https://www.pcworld.com/article/703044/703044.html)
+- The image for the Graphical-processor-unit was retrieved from [Screenshot 2023-11-25 184109.png]()
 ### Acknowledgements
 
 
