@@ -705,7 +705,7 @@ nav a:hover::after {
 .product-card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width:500px;
-    height:600px;
+    height:700px;
     border-radius:10px;
     text-align: center;
     justify-content: center;
@@ -730,6 +730,25 @@ nav a:hover::after {
     font-size:22px;
     font-family:"Poppins",sans-serif;
     margin:5px auto;
+}
+
+.buttn button{
+    border: none;
+    outline: 0;
+    width:100%;
+    height:110px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    font-size: 22px;
+    font-family: "Poppins",sans-serif;
+
+}
+
+
+.buttn:hover{
+    opacity:0.7;
 }
 
 
