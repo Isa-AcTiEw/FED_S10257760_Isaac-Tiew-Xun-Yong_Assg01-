@@ -4,5 +4,4 @@ document.getElementById("return").onclick = function () {
 
 var StoredJson = localStorage.getItem("cart-item");
 var StoredCartItem = JSON.parse(StoredJson);
-console.log(StoredCartItem.title)
 

@@ -1,5 +1,5 @@
 const cartButtons = document.getElementsByClassName("buttn");
-
+var cartItems = [];
 for (var i = 0; i < cartButtons.length; i++) {
     var button = cartButtons[i];
     button.addEventListener("click", addToCartClicked);
@@ -14,7 +14,8 @@ function addToCartClicked(event) {
 
     console.log(title, price, imagesrc);
     var cart = createCart(title,price,imagesrc);
-    storeCartData(cart);
+    cartItems.push(cart);
+    storeCartData(cartItems);
 }
 
 function createCart(title,price,imagesrc){
@@ -26,8 +27,8 @@ function createCart(title,price,imagesrc){
     }
 }
 
-function storeCartData(cart){
-    var jsonCart = JSON.stringify(cart);
+function storeCartData(cartItems){
+    var jsonCart = JSON.stringify(cartItems);
     localStorage.setItem("cart-item", jsonCart)
 }
 
