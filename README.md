@@ -32,11 +32,7 @@ the website
 - For the store page an add to cart button
 - Cart that updates for every item added to cart
 - Total amount due that is tabulated by totaling up all the prices of the products listed in the cart
-- An overlay pop up that displays the gaming performance of the gaming handheld on the product page
-- Scroll behaviour of images
-- Product
-- Store page
-- Cart page
+
  
 ### Existing Features
 - Naviagtion bar - allow users to be able to click on nav tabs to navigate arround the different pages of the website
@@ -49,11 +45,7 @@ the website
 - For the store page an add to cart button
 - Cart that updates for every item added to cart
 - Total amount due that is tabulated by totaling up all the prices of the products listed in the cart
-- An overlay pop up that displays the gaming performance of the gaming handheld on the product page
-- Scroll behaviour of images
-- Product
-- Store page
-- Cart page
+- An overlay pop up that notifies users form submitted
 
 ## Technologies Used
 
