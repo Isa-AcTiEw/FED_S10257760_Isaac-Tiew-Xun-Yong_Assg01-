@@ -124,7 +124,7 @@ nav a:hover::after {
 
 
 
-
+/* Container for product images on homepage */
 .slideshow-container{
     display:flex;
     flex-direction: row;
@@ -145,7 +145,7 @@ nav a:hover::after {
 
 }
 
-
+/* Tetx-contianer inside product images on home page flex box */
 .text-box{
     width:200px;
     height:200px;
@@ -159,7 +159,7 @@ nav a:hover::after {
 }
 
 
-
+/* about section of the home page */
 .about-header>h2{
     width:100%;
     height:50px;
@@ -190,6 +190,7 @@ nav a:hover::after {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Vision section of the home page */
 .vision-header > h2{
     width:100%;
     height:50px;
@@ -219,6 +220,7 @@ nav a:hover::after {
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
 }
+/* Partner's section of the homepage */
 .partner-header{
     width:100%;
     height:50px;
@@ -229,6 +231,7 @@ nav a:hover::after {
     font-family: 'Poppins',sans-serif;
 }
 
+/* flex box that contain the partner logos */
 .partner-logos{
     display:flex;
     width:1000px;
@@ -237,8 +240,8 @@ nav a:hover::after {
     flex-direction:row;
 }
 
+/* Styling for logo-partners */
 .logo-partner {
-    /* Other styles for your logo-partner class */
     width: 800px;
     height: 300px;
     margin-left: 50px;
@@ -276,6 +279,7 @@ nav a:hover::after {
     height:200px;
 }
 
+/* Creating the HTML contact forms */
 .contact-header{
     width:100%;
     height:50px;
@@ -298,6 +302,7 @@ nav a:hover::after {
     flex-direction: row;
 }
 
+/* Specifying the size of the fields*/
 .form-fields{
     width:622px;
     height:83.19px;
@@ -305,24 +310,31 @@ nav a:hover::after {
     margin-top:10px;
 
 }
+
+/* Styling for user's name in contact form */
 .form-fields label[for="name"] {
     width:42.22px;
     height:19px;
     font-family: 'Poppins',sans-serif;
     font-size: 15px;
 }
+
+/* Input field with id name in HTML contact form */
 .form-fields > input#name{
     width:622px;
     height:40px;
     font-family: 'Poppins',sans-serif;
 }
 
+/* Styling for user's email address field */
 .form-fields label[for="email"] {
     width:42.22px;
     height:19px;
     font-family: 'Poppins',sans-serif;
     font-size: 15px;
 }
+
+/* Styling input with id email */
 .form-fields > input#email{
     width:622px;
     height:40px;
@@ -354,6 +366,8 @@ nav a:hover::after {
 
 
 /*Product css*/
+
+/* Styling the product image for product page */
 .product-image{
     margin:20px auto;
     width:100%;
@@ -365,6 +379,7 @@ nav a:hover::after {
     border-radius: 10px;
 }
 
+/* Heading for console */
 .header-text{
     font-size:50px;
     color:white;
@@ -373,7 +388,8 @@ nav a:hover::after {
 
 
 
-
+/* product information wrapper/container that stores the information about CPU,
+   RAM, Screen, Battrey, Gameplay Performance*/
 .product-info{
     width:100%;
     display:flex;
@@ -490,6 +506,7 @@ nav a:hover::after {
     font-size:18px;
 }
 
+/* Container that stores the content for the gameplay performance section of the product page */
 .gameplay-performance{
     width:100%;
     margin: 20px auto;
@@ -614,6 +631,7 @@ nav a:hover::after {
     color: black;
 }
 
+/* Styling the Reviews Header */
 .Reviews{
     width:100%;
     margin:20px auto;
@@ -633,6 +651,7 @@ nav a:hover::after {
     height:100%
 }
 
+/* Specifying the dimensions of flexbox containing video tiles */
 .video-container-grid{
     width:1792px;
     height:100%;
@@ -642,6 +661,7 @@ nav a:hover::after {
     flex-wrap: wrap;
 }
 
+/* Specifying the dimensions of each video tile */
 .video-tiles{
     width:540px;
     height:400px;
@@ -650,6 +670,7 @@ nav a:hover::after {
     margin:15px auto;
 }
 
+/* Formatting the videos to fit the dimensions of the tile */
 .video-tiles iframe{
     border-radius:10px;
     width:540px;
