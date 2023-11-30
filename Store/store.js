@@ -29,8 +29,8 @@ function createCart(title,price,imagesrc){
 
 function storeCartData(cartItems){
     var jsonCart = JSON.stringify(cartItems);
-    localStorage.setItem("cart-item", jsonCart)
-}
+    localStorage.setItem("cart-item", jsonCart);
+}   
 
 
 
