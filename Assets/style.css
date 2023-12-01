@@ -128,14 +128,38 @@ nav a:hover::after {
 .slideshow-container{
     display:flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-content: center;
-    justify-content: space-between;
+    justify-content: center;
+    
+}
+
+@media only screen and (max-width:600px){
+    .Slides{
+        margin:20px auto;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Slides img{
+        width:100px;
+        height:700px;
+    }
+
+    .text-box{
+        width:100px;
+        height:100px;
+
+    }
     
 }
 .Slides {
     display: flex;
+    justify-content: center;
     margin:20px auto;
+    width:auto;
 }
 
 
@@ -159,6 +183,7 @@ nav a:hover::after {
 }
 
 
+
 /* about section of the home page */
 .about-header>h2{
     width:100%;
@@ -170,9 +195,42 @@ nav a:hover::after {
     font-family: 'Poppins',sans-serif;
 }
 
+
+
+@media only screen and (max-width:600px){
+    .about-header{
+        text-align: center;
+        width:100px;
+        margin:10px auto;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .about-container{
+        width:100px;
+        height:800px;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-container p{
+        font-size:10px;
+        margin:10px auto;
+        margin:5px auto;
+    }
+
+    .about-container img{
+        width:100px;
+        height:100px;
+        margin:0 auto;
+    }
+}
 .about-container {
     width: 1000px;
-    height: 800px;
+    max-height: 600px;
     margin: 0 auto; /* Adjusted margin for better positioning */
     display: flex;
     flex-direction: row wrap;
@@ -180,14 +238,32 @@ nav a:hover::after {
 
 
 .about-container > img {
-    width: 250px;
-    height: 250px;
+    max-width: 250px;
+    max-height: 250px;
     margin:20px;
 }
 .about-container>p{
     margin:40px;
+    max-width: 600px;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (max-width:600px){
+    .vision-container{
+        width:100px;
+        height:50px;
+        display:flex;
+        align-content: center;
+        flex-direction: column;
+
+    }
+
+    .vison-container img{
+        width:100px;
+        height:100px;
+        margin:0 auto;
+    }
 }
 
 /* Vision section of the home page */
@@ -366,7 +442,7 @@ nav a:hover::after {
 .modal-container{ /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 2; /* Sit on top */
-    padding-top: 100px;
+    padding-left:25%;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -376,13 +452,15 @@ nav a:hover::after {
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    background-color: rgba(0,0,0,0.4);
+    /* Black w/ opacity */
+    visibility: hidden;
   }
 
 /* Modal for form field */
 
 .modal-hidden{
-   margin:20 auto;
+   margin:100px auto;
    display:flex;
    margin-left:80px;
    flex-direction: column;
@@ -419,6 +497,7 @@ nav a:hover::after {
     font-family: "Poppins",sans-serif;
     margin:10px auto;
 }
+
 
 
 
@@ -763,6 +842,7 @@ nav a:hover::after {
     flex-wrap: wrap;
 }
 
+/* Product cards on store page */
 .product-card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width:500px;
@@ -812,6 +892,8 @@ nav a:hover::after {
     opacity:0.7;
 }
 
+/*Specifying the dimensions for the cart page */
+
 .shopping-cart{
     width:100%;
     background-color: white;
@@ -829,6 +911,8 @@ nav a:hover::after {
     font-family: "Poppins",sans-serif;
 
 }
+
+/* total for the cart page */
 
 .total{
     width:50%;
@@ -868,6 +952,7 @@ nav a:hover::after {
     font-family: "Poppins",sans-serif;
 }
 
+/* changing states for the purchase button */
 .purchase-btn :hover{
     background-color: rgb(14, 188, 63);
     color: white;
@@ -883,6 +968,8 @@ nav a:hover::after {
     font-family:"Poppins",sans-serif
 }
 
+/* changing states for the return button */
+
 .return-btn :hover{
     background-color: black;
     color: white;
@@ -890,10 +977,17 @@ nav a:hover::after {
 }
 
 
+@media screen and (max-width:600px){
+    .item{
+        width:100px;
+        height:1000px;
+        display:flex;
+        flex-direction:column;
+    }
+}
 
 
-
-
+/* item wrapper for the cart page */
 
 .item{
     width:50%;
@@ -905,6 +999,7 @@ nav a:hover::after {
     justify-content: center;
     text-align: center;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    overflow: visible;
 }
 
 .item-img img{
@@ -918,6 +1013,7 @@ nav a:hover::after {
     font-family:"Poppins",sans-serif;
 }
 
+/* Styling for the quantity buttons */
 .quantity {
     padding-top: 20px;
     margin-right: 60px;
