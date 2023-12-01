@@ -135,6 +135,8 @@ the website
 
 - The javaScript AddToCart function was inspired by https://youtu.be/YeFzkC2awTM?si=QQZgYoq5OK3FYjjG and https://chat.openai.com/c/7902a050-445e-4202-b417-506405218a43
 
+- The javaSxript display cart function was inspired by https://youtu.be/cT_ZYrS3tKc?si=25NA9jvE2pP2tBTa
+
 - Emoji One, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons attribution for tick
 - MayImilae, CC0, via Wikimedia Commons attribution for dolphin logo
 - Gameposo, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons attribution for retroarch logo
