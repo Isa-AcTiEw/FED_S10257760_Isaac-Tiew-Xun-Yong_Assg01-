@@ -88,6 +88,8 @@ the website
 
 - The image for the company's logo on the nav tab was retrieved from [aynlogo.png](https://www.ayntec.com/)
 
+- The image for the modal tick icon was retrieved from [checkmark.png](https://upload.wikimedia.org/wikipedia/commons/3/3b/Eo_circle_green_checkmark.svg)
+
 #### Product
 - The product image for Loki Max on the product page was retrieved from [loki-max01.jpg](https://www.ayntec.com/products/loki-max-preorder)
 
@@ -121,6 +123,9 @@ the website
 
 
 ### Acknowledgements
+
+- The insipiration for the cart page was reffrenced from https://designmodo.com/shopping-cart-ui/
+- The inspiration for the modal was reffrenced from https://www.youtube.com/watch?v=AF6vGYIyV8M
 - The inspiration for the nav bar was reffrenced from https://youtu.be/FEmysQARWFU?si=HJoiIqoSNVafw2Sh
 - The inspiration for the contact form card on the home page was reffrenced from https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/#howtostylethecontactsection
 
@@ -129,6 +134,10 @@ the website
 - The inspiration for the footer was reffrenced from https://www.youtube.com/watch?v=lLdzlLL33G8
 
 - The javaScript AddToCart function was inspired by https://youtu.be/YeFzkC2awTM?si=QQZgYoq5OK3FYjjG and https://chat.openai.com/c/7902a050-445e-4202-b417-506405218a43
+
+- Emoji One, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons attribution for tick
+- MayImilae, CC0, via Wikimedia Commons attribution for dolphin logo
+- Gameposo, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons attribution for retroarch logo
   
 
 #### Videos
