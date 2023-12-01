@@ -163,13 +163,15 @@ nav a:hover::after {
 }
 
 
+
+
 .Slides img{
     width:700px;
 
 
 }
 
-/* Tetx-contianer inside product images on home page flex box */
+/* Text-contianer inside product images on home page flex box */
 .text-box{
     width:200px;
     height:200px;
